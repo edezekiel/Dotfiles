@@ -22,6 +22,7 @@
 	ci = commit
         st = status
         lg = log -n 3 --oneline
+	sw = switch
 [init]
 	defaultBranch = main
 [commit]
