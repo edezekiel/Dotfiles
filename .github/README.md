@@ -6,8 +6,8 @@
 
 ## Backup technique
 
-I used a _git bare repository_ to backup my dotfiles. See [<https://www.youtube.com/watch?v=tBoLDpTWVOM&t=2s](Git Bare Repository - A Better Way To Manage Dotfiles);
-[https://www.atlassian.com/git/tutorials/dotfiles](article from Atlassian).
+I used a _git bare repository_ to backup my dotfiles. See [DistroTube](https://www.youtube.com/watch?v=tBoLDpTWVOM&t=2s);
+[Atlassian](https://www.atlassian.com/git/tutorials/dotfiles).
 
 ### Git bare repository setup
 
