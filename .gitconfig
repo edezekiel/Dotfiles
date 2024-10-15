@@ -1,0 +1,28 @@
+[user]
+	email = ed.a.ezekiel@gmail.com
+	name = Edward Ezekiel
+[paper]
+	branch = false
+[core]
+  	editor = code --wait
+[merge]
+    tool = default-mergetool
+[mergetool "default-mergetool"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[pager]
+	diff = false
+	branch = false
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+        st = status
+        lg = log -n 3 --oneline
+[init]
+	defaultBranch = main
+[commit]
+	gpgSign = false
